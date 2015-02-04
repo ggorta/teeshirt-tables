@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="../public/css/adminstyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+  <div class = "container-fluid">
+
+    <!-- header -->
+    <section class = "row">
+        <div class = "col-md-12 clearfix" id = "header">
+          <header>
+            <a href="/">
+              <h1 class = 'text-left'>Animali</h1>
+            </a>
+          </header>
+        </div>
+    </section> <!-- end header -->
+
+    <section class = "row">
+      <h3 class= "col-md-12"><%=  %></h3>
+      <p class= "col-md-12"><u>Details</u>:<br />
+        First Name: <%= %><br />
+        Last Name: <%= %><br />
+        Email Address: <%= %>
+      </p>
+</section>
+
+    <section class = "row">
+      <h3 class= "col-md-12">Order History</h3>
+    </section>
+
+    <section class = "row">
+      <table class = "table table-striped col-md-12 id = "items">
+        <tr>
+          <th>Order ID</th>
+          <th>Date</th>
+          <th>Name</th>
+          <th>Item</th>
+          <th>Quantity</th>
+        </tr>
+        <tr>
+          <td><%= %></td>
+          <td><%= %></td>
+          <td><%= %></td>
+          <td><%= %></td>
+          <td><%= %></td>
+          </tr>
+          </table>
+        </section>
+
+
+
+
+
+
+
+        <!-- Bootstrap JS -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+      </body>
+      </html>
